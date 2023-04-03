@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/formulario001.css">
+    <link rel="stylesheet" href="primeicons-master/primeicons.css">
+    <title>Formulario de Pago</title>
+</head>
+<body>
+    <header class="cabecera-principal">
+        <section id="content01">
+            <h1>AVYS</h1>
+        </section>
+        <section id="content02">
+            <ul class="menu-principal">
+                <li class="opcion-menu"><a href="index.html" class="boton-menu">Inicio</a></li>
+                <li class="opcion-menu"><a href="" class="boton-menu">Tienda</a></li>
+                <li class="opcion-menu"><a href="" class="boton-menu">Informacion</a></li>
+                <li class="opcion-menu"><a href="" class="boton-menu">Contacto</a></li>
+            </ul>
+        </section>
+        <section id="content03">
+            <section class="redes">
+                <a href="">
+                    <i class="pi pi-youtube"></i>
+                </a>
+                <a href="">
+                    <i class="pi pi-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="pi pi-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="pi pi-github"></i>
+                </a>
+            </section>
+            <a href="">
+                <i class="pi pi-user"></i>
+            </a>
+        </section>
+    </header>
+    <main>
+        <header class="cabecera-pago">
+            <h1>Formulario de Pago</h1>
+            <p>Llene el siguiente formulario para completar su compra!</p>
+        </header>
+        <div class="content-main">
+            <section class="content-form">
+                <form action="">
+                    <fieldset>
+                        <h3>Datos del Comprador</h3>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="nombreComprador">Nombre</label>
+                                <input type="text" name="nombreComprador" id="nombreComprador">
+                            </div>
+                            <div class="campo">
+                                <label for="apellidoComprador">Apellido</label>
+                                <input type="text" name="apellidoComprador" id="apellidoComprador">
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="identificacion">Identificacion</label>
+                                <input type="text" name="identificacion" id="identificacion">
+                            </div>
+                            <div class="campo">
+                                <label for="telefono">Telefono</label>
+                                <input type="number" name="telefono" id="telefono">
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="correo">Correo Electronico</label>
+                                <input type="email" name="correo" id="correo">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h3>Datos de Envio</h3>
+                        <div class="fila">
+                            <div class="campo">
+                                <div>
+                                    <input type="radio" name="tipo" id="tipo1">
+                                    <label for="tipo1">Retiro en Tienda</label>
+                                </div>
+                            </div>
+                            <div class="campo">
+                                <div>
+                                    <input type="radio" name="tipo" id="tipo2">
+                                    <label for="tipo2">Otro</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="retiro">Tienda</label>
+                                <select name="retiro" id="retiro">
+                                    <option value="">Seleccion la Tienda</option>
+                                    <option value="1">Sabana Grande</option>
+                                    <option value="2">El Paraiso</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="metodoEnvio">Metodo de Envio</label>
+                                <select name="metodoEnvio" id="metodoEnvio">
+                                    <option value="">Seleccione</option>
+                                    <option value="1">Delivery</option>
+                                    <option value="2">MRW</option>
+                                    <option value="3">DHL</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="direccion">Direccion de Envio</label>
+                                <input type="text" name="direccion" id="direccion">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h3>Datos de Pago</h3>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="metodoPago">Metodo de Pago</label>
+                                <select name="metodo" id="metodoPago">
+                                    <option value="">Seleccionar metodo</option>
+                                    <option value="1">Pago Movil</option>
+                                    <option value="2">Transferencia Bancaria Nacional</option>
+                                    <option value="3">Transferencia Bancaria Internacional</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="campo">
+                                <label for="numeroReferencia">Referencia</label>
+                                <input type="number" name="numeroReferencia" id="numeroReferencia">
+                            </div>
+                            <div class="campo">
+                                <label for="numeroTelefono">Telefono</label>
+                                <input type="number" name="" id="">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <input type="submit" value="Comprar">
+                </form>
+            </section>
+            <section class="content-factura">
+                <div class="content-articulos">
+                    <h3>Articulos</h3>
+                    <article>
+                        <img src="img/hi-12-grafite-420x315.jpg" alt="lentes grafite">
+                        <p class="texto-articulo">Hidro Color Grafite <span class="precio">25$</span></p>
+                        <div class="botones">
+                            <button><i class="pi pi-plus"></i></button>
+                            <button><i class="pi pi-minus"></i></button>
+                            <button><i class="pi pi-times"></i></button>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/hi-13-verde-420x315.jpg" alt="lentes grafite">
+                        <p class="texto-articulo">Hidro Color Verde <span class="precio">25$</span></p>
+                        <div class="botones">
+                            <button><i class="pi pi-plus"></i></button>
+                            <button><i class="pi pi-minus"></i></button>
+                            <button><i class="pi pi-times"></i></button>
+                        </div>
+                    </article>
+                </div>
+                <div class="content-fatura">
+                    <h3>Total a Pagar</h3>
+                    <div class="factura">
+                        <header class="cabecera-factura">
+                            <h1>Factura</h1>
+                            <p>Numero F: xxxx</p>
+                        </header>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
