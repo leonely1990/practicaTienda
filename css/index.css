@@ -1,0 +1,88 @@
+.content-banner {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content01-main {
+
+}
+
+.banner {
+    background-color: bisque;
+    height: 250px;
+    max-height: 250px;
+    width: 100%;
+}
+
+.boton-banner-left, .boton-banner-right {
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #6b6b6b;
+}
+
+.boton-banner-right {
+    right: 0;
+}
+
+.boton-banner-left:hover, .boton-banner-right:hover {
+    background-color: #9e9e9e46;
+}
+
+/* Promocion 01 */
+
+.content02-main {
+    padding: 10px;
+}
+
+.informacion01 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.informacion01 header {
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.informacion01 section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.informacion01 footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.informacion01 footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3f3f3f;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #e06060;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #6b6b6b;
+    transition: box-shadow 0.3s, color 0.3s;
+}
+
+.informacion01 footer a:hover {
+    box-shadow: none;
+    color: #000000;
+}
